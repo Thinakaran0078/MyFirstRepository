@@ -1,0 +1,4 @@
+20-12-2020:01:46:12 ERROR    [test.py:66]
+E11000 duplicate key error collection: TestDB.tblEmployee index: rollno_1 dup key: { rollno: "002" },
+full error: {'index': 0, 'code': 11000, 'keyPattern': {'rollno': 1}, 'keyValue': {'rollno': '002'},
+'errmsg': 'E11000 duplicate key error collection: TestDB.tblEmployee index: rollno_1 dup key: { rollno: "002" }'}
